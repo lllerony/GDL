@@ -1,0 +1,21 @@
+.five_princes{
+  display: flex;
+  flex-direction: column;
+}
+
+.five_princes div:first-of-type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.five_princes div:last-of-type{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+
+
