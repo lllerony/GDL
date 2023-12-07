@@ -2,10 +2,10 @@
 @import url("./first_par.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
 
-body{
-  background: url(../images/обои.png);
-  width:100%;
+body {
+  background-image: url(../images/обои.png);
   background-repeat: repeat-y;
+  width: 100%;
 }
 
 img {
@@ -57,11 +57,11 @@ img {
   height: 80px;
   background: url(../images/ленты\ 1.svg) no-repeat;
   left: 0;
-  text-align: center;
   font-family: 'Inter', sans-serif;
+  color: rgba(68, 32, 0, 1);
   font-size: 32px;
   font-weight: 800;
-  color: rgba(68, 32, 0, 1);
+  text-align: center;
   line-height: 80px;
 }
 
