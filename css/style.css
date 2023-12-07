@@ -72,9 +72,9 @@ img {
   text-align: center;
   line-height: 400px;
   background-size: contain;
-  color: #F8EB9A;
+  color: #F2E2B1;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 90px;
   font-style: normal;
   font-weight: 800;
@@ -130,9 +130,9 @@ img {
     background: url(../images/заголовок\ 1.svg) no-repeat;
     line-height: 320px;
     background-size: contain;
-    color: #F8EB9A;
+    color: #F2E2B1;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 800;
