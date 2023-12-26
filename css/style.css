@@ -1,0 +1,140 @@
+@import url("./header.css");
+@import url("./first_par.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
+body {
+  background-image: url(../images/обои.png);
+  background-repeat: repeat-y;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.prince {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5% !important;
+}
+
+.left {
+  padding: 0 15% 0 0;
+}
+
+.right {
+  padding: 0 0 0 15%;
+}
+
+.book {
+  width: 920px;
+  height: 600px;
+  background: url(../images/бумага\ копия\ 1.svg) no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prince article {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.lents {
+  width: 250px;
+  height: 80px;
+  background: url(../images/ленты\ 1.svg) no-repeat;
+  left: 0;
+  font-family: 'Inter', sans-serif;
+  color: rgba(68, 32, 0, 1);
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 80px;
+}
+
+.end-of-par {
+  width: 100%;
+  height: 400px;
+  background: url(../images/заголовок\ 1.svg) no-repeat;
+  text-align: center;
+  line-height: 400px;
+  background-size: contain;
+  color: #F2E2B1;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.dropdown-menu{
+  --bs-dropdown-link-hover-bg: rgb(84, 34, 19) !important;
+  --bs-dropdown-link-active-bg: rgb(42, 17, 10) !important;
+}
+
+@media screen and (max-width: 1510px) {
+  header img {
+    width: 1510px;
+    height: auto;
+  }
+
+  .left{
+    margin:5% 0;
+  }
+
+  .prince>img {
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+  }
+
+  .book{
+    align-items: start;
+    padding-top: 3%;
+  }
+
+  .book>img{
+    width: 40%;
+    height: 80%;
+  }
+
+  article img{
+    width: 100%;
+  }
+
+  .five_princes div:first-of-type, .five_princes div:last-of-type{
+    gap: 5%;
+    margin-bottom: 5%;
+  }
+
+  .five_princes div:first-of-type img, .five_princes div:last-of-type img{
+    width: 20%;
+  }
+
+  .end-of-par {
+    width: 100%;
+    height: auto;
+    background: url(../images/заголовок\ 1.svg) no-repeat;
+    line-height: 320px;
+    background-size: contain;
+    color: #F2E2B1;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+  }
+}
